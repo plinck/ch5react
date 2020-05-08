@@ -105,17 +105,9 @@ function App() {
         <div>
           <p>
             Configure your development machine's address in the top of <code>App.tsx</code>, it is currently set to <code>{devMachine}</code><br />
-            Use <code>yarn start</code> then <a href={"http://" + devMachine + ":3000/"}>navigate there</a> to see live updates<br />
+            Use <code>npm start</code> then <a href={"http://" + devMachine + ":3000/"}>navigate there</a> to see live updates<br />
             Edit <code>src/App.tsx</code> and save to reload
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </div>
         <div>
           <Container><InterlockedButtons /><StringDiv stringsubscribeSignalName="21" /></Container>
