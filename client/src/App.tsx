@@ -3,7 +3,7 @@ import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from "./comp
 import logo from './assets/logo.svg';
 import avsp from './assets/avsp.png';
 import './App.css';
-import PushButton from './components/PushButton';
+import PushButton from './components/buttons/PushButton';
 
 // TODO set this to your machine name or IP address on the same network as the panel to see live updating version via the "navigate there" link
 // if this is set to your dev machine, when you run "yarn start", then click the "navigate there" link on the panel, you will have live hot-module-reload

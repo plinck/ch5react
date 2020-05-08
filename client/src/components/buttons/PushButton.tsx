@@ -1,5 +1,5 @@
 import React from 'react';
-import { usePublishDigital, useSubscribeDigital } from "./react-ch5/react-ch5";
+import { usePublishDigital, useSubscribeDigital } from "../react-ch5/react-ch5";
 import classnames from 'classnames';
 import { ClassValue } from 'classnames/types';
 import styles from './PushButton.module.scss';
