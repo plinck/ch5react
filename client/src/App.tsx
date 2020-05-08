@@ -1,7 +1,6 @@
 import React, { TouchEvent } from 'react';
 import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from "./components/react-ch5/react-ch5";
 import logo from './assets/logo.svg';
-import avsp from './assets/avsp.png';
 import './App.css';
 import PushButton from './components/buttons/PushButton';
 
@@ -102,7 +101,6 @@ function App() {
       <header className="App-header">
         <div className="App-wrap-logo">
           <img src={logo} className="App-logo" alt="react logo" />
-          <img src={avsp} className="App-logo" alt="avsp logo" />
         </div>
         <div>
           <p>

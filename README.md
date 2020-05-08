@@ -4,7 +4,7 @@
 
 This project used the cra-template-ch5-typescript starter template by Chris Poole, AVSP Ltd.  Many thanks to Chris for doing the heavy lifting on getting started with react and ch5
 
-This project has been updated to change the file structure around a but to more fit the structure I typically used.  I have also copied the react-ch5 code into my project so I can manipualet it on my own and inetgrate it based on my style.
+This project has been updated to change the file structure around a but to more fit the structure I typically used.  I have also copied the react-ch5 code into my project so I can manipualet it on my own and inetgrate it based on my style.  I also got rid of yarn since I dont use it and I had issues with it messing up my gcloud CLI and firebase CLI.  Certainly ths is my issue but I am not in the mood to switch to yarn yet.
 
 My goal is to convert it to use JSON simulator as a simpler way for me to get stafrted without using a x60 series touchpanel snd processor.s
 
