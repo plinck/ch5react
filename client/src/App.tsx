@@ -1,5 +1,5 @@
 import React, { TouchEvent } from 'react';
-import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from 'react-ch5';
+import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from "./components/react-ch5/react-ch5";
 import logo from './assets/logo.svg';
 import avsp from './assets/avsp.png';
 import './App.css';
