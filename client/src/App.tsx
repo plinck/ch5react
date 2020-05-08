@@ -1,9 +1,8 @@
 import React, { TouchEvent } from 'react';
-import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from 'react-ch5';
+import { useSubscribeString, usePublishAnalog, useSubscribeAnalog } from "./components/react-ch5/react-ch5";
 import logo from './assets/logo.svg';
-import avsp from './assets/avsp.png';
 import './App.css';
-import PushButton from './components/PushButton';
+import PushButton from './components/buttons/PushButton';
 
 // TODO set this to your machine name or IP address on the same network as the panel to see live updating version via the "navigate there" link
 // if this is set to your dev machine, when you run "yarn start", then click the "navigate there" link on the panel, you will have live hot-module-reload
@@ -102,22 +101,13 @@ function App() {
       <header className="App-header">
         <div className="App-wrap-logo">
           <img src={logo} className="App-logo" alt="react logo" />
-          <img src={avsp} className="App-logo" alt="avsp logo" />
         </div>
         <div>
           <p>
             Configure your development machine's address in the top of <code>App.tsx</code>, it is currently set to <code>{devMachine}</code><br />
-            Use <code>yarn start</code> then <a href={"http://" + devMachine + ":3000/"}>navigate there</a> to see live updates<br />
+            Use <code>npm start</code> then <a href={"http://" + devMachine + ":3000/"}>navigate there</a> to see live updates<br />
             Edit <code>src/App.tsx</code> and save to reload
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
         </div>
         <div>
           <Container><InterlockedButtons /><StringDiv stringsubscribeSignalName="21" /></Container>
