@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@crestron/ch5-crcomlib": "^1.0.0",
+    "@crestron/ch5-crcomlib": "^2.12.0",
     "@crestron/ch5-utilities-cli": "^0.1.47",
     "@testing-library/user-event": "^10.1.0",
     "@types/classnames": "^2.2.10",
